@@ -107,3 +107,41 @@ button {
 	margin-top: 40px;
 	text-align: center;
 }
+
+
+@media screen and (max-width: 992px){
+	.menu-container{
+		width: 25%;
+		padding: 0px 0px 0px 250px;
+	}
+	.left-side{
+		padding: 80px 0px 0px 170px;
+	}
+	video{
+		width: 1000;
+		height: 1000;
+	}
+	.right-side{
+		padding: 80px 0px 0px 100px;
+		width: 815px;
+	}
+	.logo{
+		margin: 0px 0px 0px 60px;
+		padding: 0px 0px 0px 20px;
+	}
+	button{
+		width: 760px;
+	}
+	.input{
+		width: 760px;
+	}
+	.last{
+		margin-left: 0px;
+	}
+	.form-footer{
+		text-align: center;
+	}
+	hr{
+		width: 760px;
+	}
+}
